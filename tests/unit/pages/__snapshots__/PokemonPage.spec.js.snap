@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemonpage component debe hacer match con el snapshot  1`] = `
+<div>
+  <h1>Quien es este Pokemon?</h1>
+  <!-- <h1 v-if="!pokemon">Espere por favor...</h1>
+    <div v-if="pokemon">
+      <PokemonPicture :pokemonId="pokemon.id" :showPokemon="true" />
+    </div> -->
+  <h1>Espere por favor...</h1><!-- opciones -->
+  <pokemon-option-stub pokemonarr="" blocked="false"></pokemon-option-stub>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Pokemonpage component debe hacer match con el snapshot cuando cargan los pokemons 1`] = `
+<div>
+  <h1>Quien es este Pokemon?</h1>
+  <!-- <h1 v-if="!pokemon">Espere por favor...</h1>
+    <div v-if="pokemon">
+      <PokemonPicture :pokemonId="pokemon.id" :showPokemon="true" />
+    </div> -->
+  <div><i id="1" style="font-size: 24px; margin-left: 5px;" class="fa color"></i><i id="2" style="font-size: 24px; margin-left: 5px;" class="fa color"></i><i id="3" style="font-size: 24px; margin-left: 5px;" class="fa color"></i><span class="scored"> Scored: 0</span>
+    <pokemon-picture-stub pokemonid="1" showpokemon="false"></pokemon-picture-stub>
+  </div><!-- opciones -->
+  <pokemon-option-stub pokemonarr="[object Object],[object Object],[object Object],[object Object]" blocked="false"></pokemon-option-stub>
+  <!--v-if-->
+</div>
+`;

@@ -8,7 +8,9 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "sweetalert2": "^11.3.6",
     "vue": "^3.0.0"
   },
   "devDependencies": {
